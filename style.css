@@ -26,8 +26,9 @@
 
 .headline {
   display: flex;
+  height:auto;
   flex-direction: column;
-  padding: 41px 24px;
+  padding: 114px 24px;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-size: cover;
 }
@@ -57,4 +58,89 @@
 .social-media-icons {
   width: 170.167px;
   height: 20px;
+}
+.work-section {
+    display: grid;
+    grid-template-rows: repeat(4,800px);
+    gap: 16px;
+    border: 2px solid black;
+}
+.card {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+}
+
+.project-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin: 0%;
+}
+.project-detail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.light-text {
+    font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgba(122, 134, 154, 1);
+}
+.description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+}
+.pro-lang {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+h6 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    border-radius: 8px;
+    background-color: rgba(235, 235, 255, 1);
+    padding: 4px 12px;
+    color: rgba(96, 112, 255, 1);
+}
+.action {
+    display: flex;
+padding: 12px 169px 12px 0px;
+align-items: center;
+}
+.see-project {
+    display: flex;
+padding: 12px;
+align-items: center;
+gap: 10px;
+border: 1px solid;
+    background-color: white;
+    border-color:rgba(96, 112, 255, 1) ;
+    border-radius: 8px;
+    color: var(--primary-b-500, #396DF2);
+text-align: center;
+
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.51px;
 }
