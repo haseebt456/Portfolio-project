@@ -25,10 +25,11 @@
 }
 
 .headline {
-  display: flex;
-  height:auto;
+  display: inline-flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 114px 24px;
+  gap: 12px;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-size: cover;
   margin-bottom: 114px;
@@ -36,23 +37,28 @@
 
 .primary-text {
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  font-size: 30px;
+  color: var(--neutrals-n-800, #172B4D);
+  font-size: 40px;
+  line-height: 52px;
   font-weight: 700;
+  margin: 0%;
 }
 
 .primary-text2 {
-  display: flex;
+  font-family: 'Poppins', sans-serif;
+  color: var(--neutrals-n-600, #344563);
   font-size: 16px;
   font-weight: 400;
-  width: 100%;
-  flex-wrap: wrap;
+  line-height: 24px;
+  margin: 0%;
 }
 
 .social-media {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
+  line-height: 24px;
+  margin: 0%;
   color: rgba(127, 140, 255, 1);
 }
 
@@ -159,4 +165,77 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; 
 letter-spacing: 0.51px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:114px 24px ;
+  gap: 24px;
+}
+.my-self {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.social-media2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:16px;
+}
+.supporting-text {
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: simple;
+  color: rgba(127, 140, 255, 1);
+}
+.social-media-icons2 {
+  display: flex;
+  gap: 16px;
+  padding: 0px 8px;
+}
+.resume-button {
+  background-color: white;
+  border-radius: 8px;
+border: 1px solid var(--primary-b-400, #6070FF);
+padding: 12px;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+line-height: 24px;
+font-weight: 500;
+font-style: normal;
+letter-spacing: 0.51px;
+color: rgba(57, 109, 242, 1);
+}
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+summary {
+  color: rgba(0, 0, 0, 1);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  list-style-type: none; /* Remove default list-style */
+  position: relative; /* Required for icon positioning */
+}
+
+/* Style the custom icon */
+summary::after {
+  content: "\f105"; /* Font Awesome icon code for a star (adjust as needed) */
+  font-family: "Font Awesome 6 Free";
+  font-weight: bold;
+  margin-right: 5px; /* Adjust spacing as needed */
+}
+details[open] summary::after {
+  content: "\f107"; /* Font Awesome icon code for a chevron-up (when open, pointing upward) */
+  transform: rotate(360deg); 
 }
