@@ -31,6 +31,7 @@
   padding: 114px 24px;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-size: cover;
+  margin-bottom: 114px;
 }
 
 .primary-text {
@@ -61,16 +62,19 @@
 }
 .work-section {
     display: grid;
-    grid-template-rows: repeat(4,800px);
-    gap: 16px;
-    border: 2px solid black;
+    grid-template-rows: repeat(4,550px);
+    gap: 88px;
 }
 .card {
-    border: 2px solid red;
+  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  border-radius: 16px;
+  background: var(--neutrals-n-0, #FFF);
     display: flex;
     flex-direction: column;
+    height: 510px;
     gap: 12px;
     padding: 16px;
+    margin:0px 20px 0px;
 }
 .left-block {
     display: flex;
@@ -80,6 +84,7 @@ gap: 12px;
 }
 .project-title {
     font-family: 'Poppins', sans-serif;
+    color: var(--neutrals-n-800, #172B4D);
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -132,7 +137,7 @@ li {
     color: rgba(96, 112, 255, 1);
 }
 .action {
-    display: flex;
+    display: inline-flex;
 padding: 12px 169px 12px 0px;
 align-items: center;
 }
@@ -148,7 +153,7 @@ border: 1px solid;
     color: var(--primary-b-500, #396DF2);
 text-align: center;
 
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 17px;
 font-style: normal;
 font-weight: 500;
