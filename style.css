@@ -216,26 +216,48 @@ color: rgba(57, 109, 242, 1);
 .skill-list {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
-summary {
-  color: rgba(0, 0, 0, 1);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  list-style-type: none; /* Remove default list-style */
-  position: relative; /* Required for icon positioning */
+.skills {
+  display: flex;
+  height: 40px;
+padding: 16px 26px 16px 12px;
+align-items: center;
+gap: 12px;
 }
-
-/* Style the custom icon */
-summary::after {
-  content: "\f105"; /* Font Awesome icon code for a star (adjust as needed) */
-  font-family: "Font Awesome 6 Free";
-  font-weight: bold;
-  margin-right: 5px; /* Adjust spacing as needed */
+.skill-text {
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  width: 237px;
+  height: 24px;
+  margin: 0%;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
 }
-details[open] summary::after {
-  content: "\f107"; /* Font Awesome icon code for a chevron-up (when open, pointing upward) */
-  transform: rotate(360deg); 
+.language-list {
+  list-style: none;
+  display: flex;
+padding: 12px;
+flex-direction: column;
+align-items: center;
+gap: 12px;
+margin: 0%;
+}
+.lang-name {
+  display: flex;
+width: 303px;
+padding: 9px 12px 9.716px 12px;
+align-items: center;
+gap: 16px;
+border-radius: 8px;
+background: var(--neutrals-n-10, #F7F7F9);
+}
+.arrow {
+  width: 32px;
+  height: 32px;
+}
+.separator {
+  border-bottom: 1px solid rgba(223, 225, 230, 1);
 }
