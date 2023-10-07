@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
   main {
-    background-color: rgba(247, 247, 249, 1);
+   background-color: rgba(247, 247, 249, 1);
 }
 .toolbar 
- {
+  {
 
   display: flex;
   padding: 4px 24px 4px 12px;
@@ -93,12 +93,12 @@
 
 .c1 {
   margin-top: 114px;
- }
-  .c-last {
-    margin-bottom: 114px;
- }
+}
+ .c-last {
+  margin-bottom: 114px;
+}
 .left-block 
- {
+  {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
