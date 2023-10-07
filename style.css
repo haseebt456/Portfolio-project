@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
+.main {
+   background-color: rgba(247, 247, 249, 1);
+}
 .toolbar {
   display: flex;
   padding: 4px 24px 4px 12px;
@@ -84,7 +86,12 @@
   padding: 16px;
   margin: 0 20px 0;
 }
-
+.c1 {
+  margin-top: 114px;
+}
+.c-last {
+  margin-bottom: 114px;
+}
 .left-block {
   display: flex;
   flex-direction: column;
@@ -368,6 +375,7 @@ textarea::placeholder {
 
 .submit-button {
   border-radius: 8px;
+  border: 1px;
   background: var(--neutrals-n-0, #fff);
   padding: 12px 16px;
   color: var(--primary-b-400, #6070ff);
