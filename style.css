@@ -24,7 +24,7 @@ main {
   align-items: center;
   width: 100%;
   padding: 1.06% 6.4% 1.06% 3.2%;
-  height: 48px;
+  height:auto;
   justify-content: space-between;
 }
 
@@ -85,7 +85,7 @@ main {
 
 .social-media-icons {
   width: 170.167px;
-  height: 20px;
+  height: auto;
 }
 
 .work-section {
@@ -110,6 +110,10 @@ main {
   overflow: hidden;
   gap: 12px;
   padding: 16px;
+  transition: all 1s ease;
+}
+.card:hover {
+  transform: scale(1.05);
 }
 
 .left-block {
@@ -200,8 +204,12 @@ li {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  transition: all 1s ease;
 }
-
+.see-project:hover {
+  background-color: rgba(64, 83, 252, 1);
+  color: white;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -330,6 +338,7 @@ li {
 
 .contact-me {
   color: var(--neutrals-n-0, #fff);
+  overflow-y: hidden;
   text-align: center;
   font-size: 40px;
   font-style: normal;
@@ -405,6 +414,11 @@ textarea::placeholder {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  transition: all 1s ease;
+}
+.submit-button:hover {
+  background-color: rgba(64, 83, 252, 1);
+  color: white;
 }
 
 @media only screen  and (max-width: 767px) {
@@ -489,7 +503,10 @@ textarea::placeholder {
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
-
+  .c3-button:hover {
+    background-color: white;
+    color: rgba(64, 83, 252, 1);
+  }
   .action {
     gap: 240px;
     padding: 12px 10px 12px 0;
