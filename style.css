@@ -450,6 +450,18 @@ line-height: 20px;
 .c2 {
   flex-direction: row-reverse;
 }
+.c3 {
+  border: 2px solid var(--primary-b-200, #A7AEFF);
+}
+.c3-button {
+  color: white;
+background: var(--primary-b-500, #4053FC);
+box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
+}
+.action {
+  gap:240px;
+  padding: 12px 10px 12px 0;
+}
 .about {
   flex-direction: row;
   min-height: 830px;
