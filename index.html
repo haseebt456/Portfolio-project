@@ -9,15 +9,18 @@
 
 </head>
 <body>
-    <header >
-        <nav class="toolbar">
-            <div class="logo">
-                <h1>My logo</h1>
-        </div>
-            <button class="menu">
+    <header class="toolbar">
+                <h1 class="logo">My logo</h1>
+            <button class="menu desktop-hidden" >
                 <img src="./images/Icon - Menu.svg" alt="menu button" >
             </button>
-        </nav>
+            <nav class="mobile-hidden">
+                <ul class="navbar">
+                    <li><a href="#work-section">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
     </header>
     <main>
         <section class="headline">
@@ -31,7 +34,8 @@
         </section>
         <section class="work-section">
             <artice class="card">
-                <img src="./images/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfoio">
+                <img src="./images/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
+                <img src="./images/Snapshoot-desktop1.png" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
                     <h2 class="project-title">Tonic</h2>
                     <ul class="project-detail">
@@ -52,21 +56,27 @@
                     </div>
                 </article>
             </artice>
-            <artice class="card">
-                <img src="./images/Snapshoot Portfolio1.svg" alt="portfolio" class="snapshot-portfoio">
+            <artice class="card c-reversed">
+                <img src="./images/Snapshoot Portfolio1.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
+                <img src="./images/Snapshoot-desktop2.svg" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
                     <h2 class="project-title">Multi-Post
                         Stories</h2>
                     <ul class="project-detail">
-                        <li>CANOPY</li>
+                        <li class="desktop-hidden">CANOPY</li>
+                        <li class="mobile-hidden" >FACEBOOK</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">Back End Dev</li>
+                        <li class="light-text desktop-hidden">Back End Dev</li>
+                        <li class="light-text mobile-hidden">Full Stack Dev</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">2023</li>
+                        <li class="light-text desktop-hidden">2023</li>
+                        <li class="light-text mobile-hidden">2015</li>
                     </ul>
-                        <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <p class="description desktop-hidden">daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <p class="description mobile-hidden">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                         <ul class="pro-lang">
                             <li class="lang">HTML</li>
+                            <li class="lang mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
@@ -75,43 +85,57 @@
                     </div>
                 </article>
             </artice>
-            <artice class="card">
-                <img src="./images/Snapshoot Portfolio2.svg" alt="portfolio" class="snapshot-portfoio">
+            <artice class="card c3">
+                <img src="./images/Snapshoot Portfolio2.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
+                <img src="./images/Snapshoot-desktop3.svg" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
-                    <h2 class="project-title">Tonic</h2>
+                    <h2 class="project-title desktop-hidden">Tonic</h2>
+                    <h2 class="project-title mobile-hidden">Facebook 360</h2>
                     <ul class="project-detail">
-                        <li>CANOPY</li>
+                        <li class="desktop-hidden">CANOPY</li>
+                        <li class="mobile-hidden" >FACEBOOK</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">Back End Dev</li>
+                        <li class="light-text desktop-hidden">Back End Dev</li>
+                        <li class="light-text mobile-hidden">Full Stack Dev</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">2023</li>
+                        <li class="light-text desktop-hidden">2023</li>
+                        <li class="light-text mobile-hidden">2015</li>
                     </ul>
-                        <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                        <ul class="pro-lang">
+                    <p class="description desktop-hidden">daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <p class="description mobile-hidden">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+                       <ul class="pro-lang">
                             <li class="lang">HTML</li>
+                            <li class="lang mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
                     <div class="action">
-                        <button class="see-project">See Project</button>
+                        <button class="see-project c3-button">See Project</button>
+                        <img src="./images/hand-cursor 1.png" alt="hand cursor" class="hand-cursor mobile-hidden">
                     </div>
                 </article>
             </artice>
-            <artice class="card">
-                <img src="./images/Snapshoot Portfolio3.svg" alt="portfolio" class="snapshot-portfoio">
+            <artice class="card c-reversed">
+                <img src="./images/Snapshoot Portfolio3.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
+                <img src="./images/Snapshoot-desktop4.svg" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
-                    <h2 class="project-title">Multi-Post
-                        Stories</h2>
+                    <h2 class="project-title desktop-hidden">Multi-Post Stories</h2>
+                    <h2 class="project-title mobile-hidden">Uber Navigation</h2>
                     <ul class="project-detail">
-                        <li>CANOPY</li>
+                        <li class="desktop-hidden">CANOPY</li>
+                        <li class="mobile-hidden" >Uber</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">Back End Dev</li>
+                        <li class="light-text desktop-hidden">Back End Dev</li>
+                        <li class="light-text mobile-hidden">Lead Developer</li>
                         <img src="./images/Counter.svg" alt="circle">
-                        <li class="light-text">2023</li>
+                        <li class="light-text desktop-hidden">2023</li>
+                        <li class="light-text mobile-hidden">2018</li>
                     </ul>
-                        <p class="description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <p class="description desktop-hidden">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <p class="description mobile-hidden">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
                         <ul class="pro-lang">
                             <li class="lang">HTML</li>
+                            <li class="lang mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
@@ -126,7 +150,7 @@
                 <h1 class="primary-text">
                     About Myself
                 </h1>
-                <p class="primary-text2">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                <p class="primary-text2 pt2-about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
                 <div class="social-media2">
                     <p class="supporting-text">LET’S CONNECT</p>
                     <div class="social-media-icons2">
@@ -164,9 +188,9 @@
             <p class="contact-message">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
                 I’d love to help with it!</p>
                 <form action="#" class="contact-form">
-            <input type="text" name="name" placeholder="lorem lpsum" required>
-            <input type="text" name="email" placeholder="loremipsum@gmail.com" required>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="write your message here.."></textarea>
+            <input class="form-items" type="text" name="name"  placeholder="lorem lpsum" required>
+            <input class="form-items" type="text" name="email" placeholder="loremipsum@gmail.com" required>
+            <textarea  class="form-items textArea" name="message" id="" cols="30" rows="10" placeholder="write your message here.."></textarea>
             <button type="submit" class="submit-button">Get in touch</button>
                 </form>
         </section>
