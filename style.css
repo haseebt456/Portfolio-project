@@ -202,9 +202,10 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 114px 24px;
+  padding: 114px 6.4%;
   gap: 24px;
-  border: 1px solid red;
+  background-color: white;
+  border-top-right-radius: 50px;
 }
 
 .my-self {
@@ -252,7 +253,9 @@ li {
 .skill-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 684px;
 }
 
 .skills {
@@ -260,12 +263,13 @@ li {
   height: 40px;
   padding: 16px 26px 16px 12px;
   align-items: center;
+  width: 100%;
   gap: 12px;
 }
 
 .skill-text {
   color: #000;
-  width: 237px;
+  flex-grow: 7;
   height: 24px;
   margin: 0%;
   font-size: 20px;
@@ -273,7 +277,11 @@ li {
   font-weight: 500;
   line-height: 24px;
 }
-
+.arrow {
+  width: 24px;
+  height: 24px;
+  flex: 1;
+}
 .language-list {
   list-style: none;
   display: flex;
@@ -282,21 +290,17 @@ li {
   align-items: center;
   gap: 12px;
   margin: 0%;
+  width: 100%;
 }
 
 .lang-name {
   display: flex;
-  width: 303px;
+  width: 100%;
   padding: 9px 12px 9.716px 12px;
   align-items: center;
   gap: 16px;
   border-radius: 8px;
   background: var(--neutrals-n-10, #f7f7f9);
-}
-
-.arrow {
-  width: 32px;
-  height: 32px;
 }
 
 .separator {
@@ -427,6 +431,25 @@ line-height: 20px;
   .headline {
     padding: 20% 20.3125%;
   }
+
+.about {
+  flex-direction: row;
+  min-height: 830px;
+}
+.pt2-about {
+  max-width: 447px;
+}
+.language-list {
+  flex-direction: row;
+}
+.lang-name {
+  flex-direction: column;
+  width: 122px;
+}
+.skill-list {
+  align-items: flex-start;
+  max-width: 684px;
+}
   .contact {
     min-height: 800px;
     max-height: 846px;
@@ -442,4 +465,6 @@ line-height: 20px;
   .textArea {
     height: 170px;
   }
+
+
 }
