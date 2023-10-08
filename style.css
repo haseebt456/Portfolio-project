@@ -24,7 +24,7 @@ main {
   align-items: center;
   width: 100%;
   padding: 1.06% 6.4% 1.06% 3.2%;
-  height:auto;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -112,6 +112,7 @@ main {
   padding: 16px;
   transition: all 1s ease;
 }
+
 .card:hover {
   transform: scale(1.05);
 }
@@ -206,10 +207,12 @@ li {
   letter-spacing: 0.51px;
   transition: all 1s ease;
 }
+
 .see-project:hover {
   background-color: rgba(64, 83, 252, 1);
   color: white;
 }
+
 .about {
   display: flex;
   flex-direction: column;
@@ -416,6 +419,7 @@ textarea::placeholder {
   letter-spacing: 0.51px;
   transition: all 1s ease;
 }
+
 .submit-button:hover {
   background-color: rgba(64, 83, 252, 1);
   color: white;
@@ -503,10 +507,12 @@ textarea::placeholder {
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
+
   .c3-button:hover {
     background-color: white;
     color: rgba(64, 83, 252, 1);
   }
+
   .action {
     gap: 240px;
     padding: 12px 10px 12px 0;
