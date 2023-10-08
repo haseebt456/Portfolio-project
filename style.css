@@ -62,6 +62,7 @@ main {
   line-height: 52px;
   font-weight: 700;
   margin: 0%;
+  overflow-y: hidden;
 }
 
 .primary-text2 {
@@ -101,7 +102,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 83%;
-  margin: 114px 6%;
+  margin: 114px auto;
   height: auto;
   box-sizing: border-box;
   overflow: hidden;
@@ -260,7 +261,7 @@ li {
 
 .skills {
   display: flex;
-  height: 40px;
+  height: auto;
   padding: 16px 26px 16px 12px;
   align-items: center;
   width: 100%;
@@ -270,7 +271,8 @@ li {
 .skill-text {
   color: #000;
   flex-grow: 7;
-  height: 24px;
+  height: auto;
+  overflow-y: hidden;
   margin: 0%;
   font-size: 20px;
   font-style: normal;
@@ -315,6 +317,8 @@ li {
   height: auto;
   max-height: 780px;
   padding-bottom: 6%;
+  background-image: url(./images/formbackground.png);
+  background-repeat: no-repeat;
   background-color: rgba(96, 112, 255, 1);
   border-top-left-radius:90px ;
 }
@@ -408,6 +412,12 @@ textarea::placeholder {
   .desktop-hidden {
     display: none;
   }
+  .toolbar {
+    min-height: 72px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+  }
   .navbar {
     display: flex;
     flex-direction: row;
@@ -429,25 +439,31 @@ line-height: 20px;
     text-decoration: none;
   }
   .headline {
+    background-image: url(./images/Header\ bg@2x.png);
+    min-height: 730px;
     padding: 20% 20.3125%;
   }
 .card {
   border-radius: 24px;
+  margin: 142px auto;
   gap: 24px;
   flex-direction: row;
   min-height: 496px;
-  max-height: 560px;
+  max-height: 550px;
   max-width: 1300px;
 }
 .desktop-snapshot {
   flex: 1;
+  height: auto;
+  width: auto;
+  max-width: 544px;
 }
 .left-block {
   flex: 1;
   padding: 24px;
   gap: 24px;
 }
-.c2 {
+.c-reversed {
   flex-direction: row-reverse;
 }
 .c3 {
@@ -463,6 +479,7 @@ box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
   padding: 12px 10px 12px 0;
 }
 .about {
+  align-items: flex-start;
   flex-direction: row;
   min-height: 830px;
 }
@@ -478,9 +495,13 @@ box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
 }
 .skill-list {
   align-items: flex-start;
+  gap: 24px;
   max-width: 684px;
 }
   .contact {
+    background-image: url(./images/contactdesktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 800px;
     max-height: 846px;
     border-top-left-radius: 160px;
