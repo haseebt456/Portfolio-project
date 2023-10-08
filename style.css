@@ -431,7 +431,18 @@ line-height: 20px;
   .headline {
     padding: 20% 20.3125%;
   }
-
+.card {
+  flex-direction: row;
+  min-height: 496px;
+  max-width: 1156px;
+}
+.left-block {
+  padding: 24px;
+  gap: 24px;
+}
+.c2 {
+  flex-direction: row-reverse;
+}
 .about {
   flex-direction: row;
   min-height: 830px;
