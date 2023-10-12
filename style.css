@@ -18,12 +18,14 @@ main {
 }
 
 .toolbar {
+  background-color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   padding: 1.06% 6.4% 1.06% 3.2%;
   height: auto;
+  max-height: 48px;
   justify-content: space-between;
 }
 
@@ -48,10 +50,10 @@ main {
   width: 100%;
   height: auto;
   gap: 12px;
-  padding: 30% 6.4%;
+  padding: 114px 6.4%;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-color: white;
   border-bottom-left-radius: 50px;
 }
@@ -411,11 +413,10 @@ textarea::placeholder {
   }
 
   .toolbar {
-    height: 72px;
+    max-height: 72px;
     position: fixed;
     padding: 16px 9.8%;
     top: 0;
-    background-color: white;
   }
 
   .navbar {
@@ -423,7 +424,6 @@ textarea::placeholder {
     flex-direction: row;
     text-align: center;
     gap: 20px;
-    padding: 0%;
     list-style: none;
   }
   .nav-elements {
@@ -438,8 +438,12 @@ textarea::placeholder {
 
   .headline {
     background-image: url(./images/Header\ bg@2x.png);
-    min-height: 730px;
+    background-size: contain;
+    background-position: center center;
+    min-height: 720px;
+    max-height: 800px;
     padding: 20% 20.3125%;
+    border-bottom-left-radius: 100px;
   }
 /*
   .card {
