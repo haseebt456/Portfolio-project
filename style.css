@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -24,7 +23,7 @@ main {
   align-items: center;
   width: 100%;
   padding: 1.06% 6.4% 1.06% 3.2%;
-  height: 48px;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -64,7 +63,6 @@ main {
   line-height: 52px;
   font-weight: 700;
   margin: 0%;
-  overflow-y: hidden;
 }
 
 .primary-text2 {
@@ -87,14 +85,12 @@ main {
   width: 170.167px;
   height: 20px;
 }
-
+/*
 .work-section {
   display: grid;
   grid-template-rows: repeat(4, auto);
   width: 100%;
-  box-sizing: border-box;
   height: auto;
-  overflow-x: hidden;
 }
 
 .card {
@@ -106,8 +102,6 @@ main {
   width: 83%;
   margin: 114px auto;
   height: auto;
-  box-sizing: border-box;
-  overflow: hidden;
   gap: 12px;
   padding: 16px;
 }
@@ -116,7 +110,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  box-sizing: border-box;
   gap: 12px;
 }
 
@@ -275,7 +268,6 @@ li {
   color: #000;
   flex-grow: 7;
   height: auto;
-  overflow-y: hidden;
   margin: 0%;
   font-size: 20px;
   font-style: normal;
@@ -405,7 +397,7 @@ textarea::placeholder {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
-}
+} */
 
 @media only screen  and (max-width: 767px) {
   .mobile-hidden {
@@ -419,8 +411,9 @@ textarea::placeholder {
   }
 
   .toolbar {
-    min-height: 72px;
+    height: 72px;
     position: fixed;
+    padding: 16px 9.8%;
     top: 0;
     background-color: white;
   }
@@ -432,19 +425,15 @@ textarea::placeholder {
     gap: 20px;
     padding: 0%;
     list-style: none;
-    text-decoration: none;
-
-    li {
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 20px;
-    }
   }
-
-  a {
-    color: rgba(52, 69, 99, 1);
+  .nav-elements {
     text-decoration: none;
+    color: rgba(52, 69, 99, 1);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
   }
 
   .headline {
@@ -452,7 +441,7 @@ textarea::placeholder {
     min-height: 730px;
     padding: 20% 20.3125%;
   }
-
+/*
   .card {
     border-radius: 24px;
     margin: 142px auto;
@@ -542,3 +531,4 @@ textarea::placeholder {
     height: 170px;
   }
 }
+ */
