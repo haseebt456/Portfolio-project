@@ -98,12 +98,17 @@ main {
   display: flex;
   flex-direction: column;
   width: 80%;
-  margin: 114px auto;
+  margin: 44px auto;
   height: auto;
   gap: 12px;
   padding: 16px; 
 }
-
+.c-top {
+  margin-top: 114px;
+}
+.c-last {
+  margin-bottom: 114px;
+}
 .left-block {
   display: flex;
   flex-direction: column;
@@ -428,7 +433,7 @@ textarea::placeholder {
 
   .card {
     border-radius: 24px;
-    margin: 142px auto;
+    margin: 142px auto 0 auto;
     flex-direction: row;
     height: auto;
     padding: 1% 16px;
@@ -499,6 +504,9 @@ margin-bottom: 1.3vw;
     bottom: 20px;
     width: 5vw;
     height: auto;
+  }
+  .c-last {
+    margin-bottom: 142px;
   }
 /*
   .about {
