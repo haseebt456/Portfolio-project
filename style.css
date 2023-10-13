@@ -109,10 +109,11 @@ main {
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+  height: auto;
 }
 
 .project-title {
-  color: var(--neutrals-n-800, #172b4d);
+  color: rgba(23, 43, 77, 1);
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -123,18 +124,14 @@ main {
   align-items: center;
   column-gap: 12px;
   list-style: none;
-  padding: 0%;
-  margin: 0%;
-}
-
-li {
   font-size: 13px;
+  font-style: normal;
   font-weight: 600;
+  line-height: 16px;
+  color: rgba(52, 69, 99, 1);
 }
 
 .light-text {
-  font-size: 13px;
-  font-weight: 600;
   color: rgba(122, 134, 154, 1);
 }
 
@@ -143,8 +140,6 @@ li {
   font-weight: 400;
   line-height: 24px;
   font-style: normal;
-  max-width: 496px;
-  margin: 0%;
 }
 
 .pro-lang {
@@ -152,8 +147,6 @@ li {
   align-items: center;
   gap: 8px;
   list-style: none;
-  margin: 0%;
-  padding: 0%;
 }
 
 .lang {
@@ -168,16 +161,8 @@ li {
   color: rgba(96, 112, 255, 1);
 }
 
-.action {
-  display: inline-flex;
-  padding: 12px 169px 12px 0;
-  align-items: center;
-}
-
 .see-project {
-  display: flex;
   padding: 12px;
-  align-items: center;
   gap: 10px;
   border: 1px solid;
   background-color: white;
@@ -444,23 +429,50 @@ textarea::placeholder {
   .card {
     border-radius: 24px;
     margin: 142px auto;
-    gap: 24px;
     flex-direction: row;
-    height: 35%;
+    height: auto;
   }
 
   .desktop-snapshot {
-    flex: 1;
     height: auto;
     width: 50%;
   }
 
   .left-block {
-    flex: 1;
+    width: 50%;
     padding: 24px;
-    gap: 24px;
+    gap: 0%;
   }
-
+  .project-title {
+    color: rgba(9, 30, 66, 1);
+    font-size: 3vw;
+    line-height: 52px;
+  }
+  .project-detail {
+    color: rgba(52, 69, 99, 1);
+    font-size: 1.4vw;
+font-weight: 500;
+line-height: 24px; 
+margin-top: 0.4vw;
+margin-bottom: 1.3vw;
+  }
+  .light-text {
+    font-weight: 400;
+    color: rgba(107, 119, 140, 1);
+  }
+  .description {
+    font-size: 1.3vw;
+    margin-bottom: 1.3vw;
+  }
+  .pro-lang {
+    margin-bottom: 1.3vw;
+  }
+  .lang {
+    font-size: 1vw;
+  }
+  .see-project {
+    font-size: 1.3vw;
+  }
   .c-reversed {
     flex-direction: row-reverse;
   }
@@ -468,16 +480,19 @@ textarea::placeholder {
   .c3 {
     border: 2px solid var(--primary-b-200, #a7aeff);
   }
-
+  .c3-action {
+  }
   .c3-button {
     color: white;
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
-
-  .action {
-    gap: 240px;
-    padding: 12px 10px 12px 0;
+  .hand-cursor {
+    position: relative;
+    top: 20px;
+    width: 4vw;
+    margin-left: 1vw;
+    height: auto;
   }
 /*
   .about {
