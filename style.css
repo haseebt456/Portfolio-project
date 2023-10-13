@@ -199,21 +199,6 @@ main {
   gap: 12px;
 }
 
-.social-media2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-.supporting-text {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  font-style: simple;
-  color: rgba(127, 140, 255, 1);
-}
-
 .social-media-icons2 {
   display: flex;
   gap: 16px;
@@ -518,12 +503,23 @@ margin-bottom: 1.3vw;
   .skill-list {
     width: 60%;
   }
-  .skills {
+  .primary-text-about {
+    font-size: 3.5vw;
+    line-height: 3.7vw;
   }
   .pt2-about {
+    font-size: 1.3vw;
+    line-height: 2vw;
     max-width: 447px;
   }
+  .social-media-about {
+    font-size: 1.3vw;
+    line-height: 2vw;
 
+  }
+  .skill-lang {
+    padding-top: 0;
+  }
   .language-list {
     flex-direction: row;
   }
