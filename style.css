@@ -101,7 +101,7 @@ main {
   margin: 114px auto;
   height: auto;
   gap: 12px;
-  padding: 16px;
+  padding: 16px; 
 }
 
 .left-block {
@@ -431,22 +431,25 @@ textarea::placeholder {
     margin: 142px auto;
     flex-direction: row;
     height: auto;
+    padding: 1% 16px;
   }
 
   .desktop-snapshot {
+    flex: 1;
     height: auto;
-    width: 50%;
+    width: 53%;
+    border-radius: 8px;
   }
-
   .left-block {
-    width: 50%;
+    flex: 1;
+    width: 47%;
     padding: 24px;
     gap: 0%;
   }
   .project-title {
     color: rgba(9, 30, 66, 1);
     font-size: 3vw;
-    line-height: 52px;
+    line-height: 3.7vw;
   }
   .project-detail {
     color: rgba(52, 69, 99, 1);
@@ -463,15 +466,20 @@ margin-bottom: 1.3vw;
   .description {
     font-size: 1.3vw;
     margin-bottom: 1.3vw;
+    line-height: 2vw;
   }
   .pro-lang {
     margin-bottom: 1.3vw;
+  }
+  .ruby {
+    line-height: 1vw;
   }
   .lang {
     font-size: 1vw;
   }
   .see-project {
     font-size: 1.3vw;
+    padding: 3%;
   }
   .c-reversed {
     flex-direction: row-reverse;
@@ -480,8 +488,6 @@ margin-bottom: 1.3vw;
   .c3 {
     border: 2px solid var(--primary-b-200, #a7aeff);
   }
-  .c3-action {
-  }
   .c3-button {
     color: white;
     background: var(--primary-b-500, #4053fc);
@@ -489,9 +495,9 @@ margin-bottom: 1.3vw;
   }
   .hand-cursor {
     position: relative;
-    top: 20px;
-    width: 4vw;
-    margin-left: 1vw;
+    left: 40%;
+    bottom: 20px;
+    width: 5vw;
     height: auto;
   }
 /*
