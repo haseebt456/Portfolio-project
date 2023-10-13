@@ -83,7 +83,7 @@ main {
   width: 170.167px;
   height: 20px;
 }
-/*
+
 .work-section {
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -97,7 +97,7 @@ main {
   background: var(--neutrals-n-0, #fff);
   display: flex;
   flex-direction: column;
-  width: 83%;
+  width: 80%;
   margin: 114px auto;
   height: auto;
   gap: 12px;
@@ -116,7 +116,6 @@ main {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  margin: 0%;
 }
 
 .project-detail {
@@ -192,7 +191,7 @@ li {
   line-height: 24px;
   letter-spacing: 0.51px;
 }
-
+/*
 .about {
   display: flex;
   flex-direction: column;
@@ -441,22 +440,19 @@ textarea::placeholder {
     padding: 20% 20.3125%;
     border-bottom-left-radius: 100px;
   }
-/*
+
   .card {
     border-radius: 24px;
     margin: 142px auto;
     gap: 24px;
     flex-direction: row;
-    min-height: 496px;
-    max-height: 550px;
-    max-width: 1300px;
+    height: 35%;
   }
 
   .desktop-snapshot {
     flex: 1;
     height: auto;
-    width: auto;
-    max-width: 544px;
+    width: 50%;
   }
 
   .left-block {
@@ -483,7 +479,7 @@ textarea::placeholder {
     gap: 240px;
     padding: 12px 10px 12px 0;
   }
-
+/*
   .about {
     align-items: flex-start;
     flex-direction: row;
