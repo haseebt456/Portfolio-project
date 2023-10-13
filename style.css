@@ -181,7 +181,7 @@ main {
   line-height: 24px;
   letter-spacing: 0.51px;
 }
-/*
+
 .about {
   display: flex;
   flex-direction: column;
@@ -207,7 +207,6 @@ main {
 }
 
 .supporting-text {
-  margin: 0%;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -239,7 +238,6 @@ main {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  max-width: 684px;
 }
 
 .skills {
@@ -255,7 +253,6 @@ main {
   color: #000;
   flex-grow: 7;
   height: auto;
-  margin: 0%;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -292,7 +289,7 @@ main {
 .separator {
   border-bottom: 1px solid rgba(223, 225, 230, 1);
 }
-
+/*
 .contact {
   display: flex;
   flex-direction: column;
@@ -508,13 +505,21 @@ margin-bottom: 1.3vw;
   .c-last {
     margin-bottom: 142px;
   }
-/*
+
   .about {
     align-items: flex-start;
     flex-direction: row;
-    min-height: 830px;
+    padding: 11% 9%;
   }
-
+  .my-self {
+    width: 50%;
+    max-width: 447px;
+  }
+  .skill-list {
+    width: 60%;
+  }
+  .skills {
+  }
   .pt2-about {
     max-width: 447px;
   }
@@ -527,13 +532,7 @@ margin-bottom: 1.3vw;
     flex-direction: column;
     width: 122px;
   }
-
-  .skill-list {
-    align-items: flex-start;
-    gap: 24px;
-    max-width: 684px;
-  }
-
+/*
   .contact {
     background-image: url(./images/contactdesktop.png);
     background-repeat: no-repeat;
