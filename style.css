@@ -283,6 +283,7 @@ main {
   height: auto;
   padding-bottom: 6%;
   background-image: url(./images/formbackground.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(96, 112, 255, 1);
   border-top-left-radius: 90px;
@@ -527,7 +528,8 @@ margin-bottom: 1.3vw;
   .contact {
     background-image: url(./images/contactdesktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center center;
     border-top-left-radius: 160px;
   }
 
