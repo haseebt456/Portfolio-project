@@ -532,10 +532,12 @@ textarea::placeholder {
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
+  
   .c3-button:hover {
     color: var(--primary-b-500, #4053fc);
     background-color: white;
   }
+
   .hand-cursor {
     position: relative;
     left: 40%;
