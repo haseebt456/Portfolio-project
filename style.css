@@ -81,7 +81,7 @@ main {
 
 .social-media-icons {
   width: 170.167px;
-  height: 20px;
+  height: auto;
 }
 
 .work-section {
@@ -102,6 +102,11 @@ main {
   height: auto;
   gap: 12px;
   padding: 16px;
+  transition: all 1s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .c-top {
@@ -183,6 +188,12 @@ main {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  transition: all 1s ease;
+}
+
+.see-project:hover {
+  background-color: rgba(64, 83, 252, 1);
+  color: white;
 }
 
 .about {
@@ -298,6 +309,7 @@ main {
 
 .contact-me {
   color: var(--neutrals-n-0, #fff);
+  overflow-y: hidden;
   text-align: center;
   font-size: 40px;
   font-style: normal;
@@ -370,6 +382,12 @@ textarea::placeholder {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  transition: all 1s ease;
+}
+
+.submit-button:hover {
+  background-color: rgba(64, 83, 252, 1);
+  color: white;
 }
 
 @media only screen  and (max-width: 767px) {
@@ -497,6 +515,7 @@ textarea::placeholder {
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
+
 
   .hand-cursor {
     position: relative;
