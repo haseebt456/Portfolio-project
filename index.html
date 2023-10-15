@@ -16,13 +16,13 @@
             </button>
             <nav class="mobile-hidden">
                 <ul class="navbar">
-                    <li><a href="#work-section">Portfolio</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#work-section" class="nav-elements" >Portfolio</a></li>
+                    <li><a href="#about" class="nav-elements">About</a></li>
+                    <li><a href="#contact" class="nav-elements">Contact</a></li>
                 </ul>
             </nav>
     </header>
-    <main>
+   <main>
         <section class="headline">
             <h1 class="primary-text">
                 I’m Haseeb.<br>
@@ -32,14 +32,15 @@
                 <p class="social-media">LET’S CONNECT</p>
             <img src="./images/social media icons.svg" alt="social media icons" class="social-media-icons">
         </section>
-        <section class="work-section">
-            <artice class="card">
+        <section class="work-section" id="work-section">
+            <artice class="card c-top">
+
                 <img src="./images/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
                 <img src="./images/Snapshoot-desktop1.png" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
                     <h2 class="project-title">Tonic</h2>
                     <ul class="project-detail">
-                        <li>CANOPY</li>
+                        <li >CANOPY</li> 
                         <img src="./images/Counter.svg" alt="circle">
                         <li class="light-text">Back End Dev</li>
                         <img src="./images/Counter.svg" alt="circle">
@@ -51,9 +52,7 @@
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
-                    <div class="action">
                         <button class="see-project">See Project</button>
-                    </div>
                 </article>
             </artice>
             <artice class="card c-reversed">
@@ -76,13 +75,11 @@
                         <p class="description mobile-hidden">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                         <ul class="pro-lang">
                             <li class="lang">HTML</li>
-                            <li class="lang mobile-hidden">Ruby on rails</li>
+                            <li class="lang ruby mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
-                    <div class="action">
                         <button class="see-project">See Project</button>
-                    </div>
                 </article>
             </artice>
             <artice class="card c3">
@@ -105,17 +102,15 @@
                         <p class="description mobile-hidden">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
                        <ul class="pro-lang">
                             <li class="lang">HTML</li>
-                            <li class="lang mobile-hidden">Ruby on rails</li>
+                            <li class="lang ruby mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
-                    <div class="action">
                         <button class="see-project c3-button">See Project</button>
                         <img src="./images/hand-cursor 1.png" alt="hand cursor" class="hand-cursor mobile-hidden">
-                    </div>
-                </article>
+                    </article>
             </artice>
-            <artice class="card c-reversed">
+            <artice class="card c-reversed c-last">
                 <img src="./images/Snapshoot Portfolio3.svg" alt="portfolio" class="snapshot-portfoio desktop-hidden">
                 <img src="./images/Snapshoot-desktop4.svg" alt="snapshot" class="desktop-snapshot mobile-hidden">
                 <article class="left-block">
@@ -135,24 +130,21 @@
                         <p class="description mobile-hidden">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
                         <ul class="pro-lang">
                             <li class="lang">HTML</li>
-                            <li class="lang mobile-hidden">Ruby on rails</li>
+                            <li class="lang ruby mobile-hidden">Ruby on rails</li>
                             <li class="lang">CSS</li>
                             <li class="lang">Jacascript</li>
                         </ul>
-                    <div class="action">
                         <button class="see-project">See Project</button>
-                    </div>
                 </article>
             </artice>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <article class="my-self">
-                <h1 class="primary-text">
+                <h1 class="primary-text primary-text-about">
                     About Myself
                 </h1>
-                <p class="primary-text2 pt2-about">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-                <div class="social-media2">
-                    <p class="supporting-text">LET’S CONNECT</p>
+                <p class="primary-text2 pt2-about">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+                    <p class="social-media social-media-about">LET’S CONNECT</p>
                     <div class="social-media-icons2">
                         <a href="#"><img src="./images/Frame.png" alt="github-icon"></a>
                         <a href="#"><img src="./images/Frame (2).svg" alt="linkedin icon"></a>
@@ -160,11 +152,10 @@
                         <a href="#"><img src="./images/Frame.svg" alt="twitter icon"></a>
                         <a href="#"><img src="./images/Icon - Medium.svg" alt="medium icon"></a>
                     </div>
-                </div>
                 <button class="resume-button">Get my resume</button>
             </article>
             <article class="skill-list">
-                <div class="skills">
+                <div class="skills skill-lang">
                     <h3 class="skill-text">Languages</h3>
                     <img src="./images/Icon - Chevron - Down - Larger.svg" alt="down arrow" class="arrow">
                 </div>
@@ -183,17 +174,20 @@
                 </div>
             </article>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
+            <article class="contact-background">
+
             <h3 class="contact-me">Contact me</h3>
             <p class="contact-message">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
                 I’d love to help with it!</p>
-                <form action="#" class="contact-form">
-            <input class="form-items" type="text" name="name"  placeholder="lorem lpsum" required>
-            <input class="form-items" type="text" name="email" placeholder="loremipsum@gmail.com" required>
-            <textarea  class="form-items textArea" name="message" id="" cols="30" rows="10" placeholder="write your message here.."></textarea>
+                <form action="https://formspree.io/f/mnqklgqd" method="post" class="contact-form">
+            <input class="form-items" type="text" name="name" id="name"  placeholder="Enter your name" maxlength="30" required>
+            <input class="form-items" type="email" name="email" id="email" placeholder="loremipsum@gmail.com" required>
+            <textarea  class="form-items textArea" name="message" id="message" placeholder="write your message here.." maxlength="500"></textarea>
             <button type="submit" class="submit-button">Get in touch</button>
                 </form>
+            </article>
         </section>
-    </main>
+    </main> 
 </body>
 </html>
