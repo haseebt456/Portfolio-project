@@ -63,6 +63,18 @@ main {
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
+  animation: slide-down 1s ease-in-out forwards;
+
+}
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .primary-text2 {
@@ -190,7 +202,6 @@ main {
   letter-spacing: 0.51px;
   transition: all 1s ease;
 }
-
 .see-project:hover {
   background-color: rgba(64, 83, 252, 1);
   color: white;
@@ -230,8 +241,12 @@ main {
   font-style: normal;
   letter-spacing: 0.51px;
   color: rgba(57, 109, 242, 1);
+  transition: all 1s ease;
 }
-
+.resume-button:hover {
+  color: white;
+  background-color: rgba(57, 109, 242, 1);
+}
 .skill-list {
   display: flex;
   flex-direction: column;
@@ -425,7 +440,9 @@ textarea::placeholder {
     font-weight: 500;
     line-height: 20px;
   }
-
+  .nav-elements:hover {
+    color: rgba(57, 109, 242, 1);
+  }
   .headline {
     background-image: url(./images/Header\ bg@2x.png);
     background-size: contain;
@@ -514,6 +531,11 @@ textarea::placeholder {
     color: white;
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
+  }
+  
+  .c3-button:hover {
+    color: var(--primary-b-500, #4053fc);
+    background-color: white;
   }
 
   .hand-cursor {
