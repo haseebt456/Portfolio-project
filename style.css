@@ -53,7 +53,7 @@ main {
   padding: 114px 6.4%;
   background-image: url(./images/header-shapes\ mobile.svg);
   background-size: cover;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-color: white;
   border-bottom-left-radius: 50px;
 }
@@ -101,14 +101,17 @@ main {
   margin: 44px auto;
   height: auto;
   gap: 12px;
-  padding: 16px; 
+  padding: 16px;
 }
+
 .c-top {
   margin-top: 114px;
 }
+
 .c-last {
   margin-bottom: 114px;
 }
+
 .left-block {
   display: flex;
   flex-direction: column;
@@ -276,23 +279,22 @@ main {
 }
 
 .contact {
- 
   background-color: white;
-  }
-  .contact-background {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding-bottom: 6%;
-    background-image: url(./images/formbackground.png);
+}
+
+.contact-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding-bottom: 6%;
+  background-image: url(./images/formbackground.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(96, 112, 255, 1);
   border-top-left-radius: 90px;
-
-  }
+}
 
 .contact-me {
   color: var(--neutrals-n-0, #fff);
@@ -326,16 +328,16 @@ main {
   height: auto;
 }
 
-
 .form-items {
   width: 100%;
   max-width: 310px;
   height: 48px;
-  padding:15px 0 15px 16px;
+  padding: 15px 0 15px 16px;
   border-radius: 8px;
   border: 1px solid var(--base-100, #cfd8dc);
   background: var(--mono-white, #fff);
 }
+
 input::placeholder {
   color: var(--neutral-n-800, #172b4d);
   font-size: 17px;
@@ -395,6 +397,7 @@ textarea::placeholder {
     gap: 20px;
     list-style: none;
   }
+
   .nav-elements {
     text-decoration: none;
     color: rgba(52, 69, 99, 1);
@@ -414,6 +417,7 @@ textarea::placeholder {
     padding: 20% 20.3125%;
     border-bottom-left-radius: 100px;
   }
+
   .card {
     border-radius: 24px;
     margin: 142px auto 0 auto;
@@ -428,60 +432,72 @@ textarea::placeholder {
     width: 53%;
     border-radius: 8px;
   }
+
   .left-block {
     flex: 1;
     width: 47%;
     padding: 24px;
     gap: 0%;
   }
+
   .project-title {
     color: rgba(9, 30, 66, 1);
     font-size: 3vw;
     line-height: 3.7vw;
   }
+
   .project-detail {
     color: rgba(52, 69, 99, 1);
     font-size: 1.4vw;
-font-weight: 500;
-line-height: 24px; 
-margin-top: 0.4vw;
-margin-bottom: 1.3vw;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 0.4vw;
+    margin-bottom: 1.3vw;
   }
+
   .light-text {
     font-weight: 400;
     color: rgba(107, 119, 140, 1);
   }
+
   .description {
     font-size: 1.3vw;
     margin-bottom: 1.3vw;
     line-height: 2vw;
   }
+
   .pro-lang {
     margin-bottom: 1.3vw;
   }
+
   .ruby {
     line-height: 1vw;
   }
+
   .lang {
     font-size: 1vw;
   }
+
   .see-project {
     font-size: 1.3vw;
     padding: 3%;
   }
+
   .c-reversed {
     flex-direction: row-reverse;
   }
 
   .c3 {
     border: 2px solid var(--primary-b-200, #a7aeff);
-    box-shadow: 0px 25px 50px 0px rgba(223, 225, 230, 1);
+    box-shadow: 0 25px 50px 0 rgba(223, 225, 230, 1);
   }
+
   .c3-button {
     color: white;
     background: var(--primary-b-500, #4053fc);
     box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
   }
+
   .hand-cursor {
     position: relative;
     left: 40%;
@@ -489,6 +505,7 @@ margin-bottom: 1.3vw;
     width: 5vw;
     height: auto;
   }
+
   .c-last {
     margin-bottom: 142px;
   }
@@ -498,30 +515,36 @@ margin-bottom: 1.3vw;
     flex-direction: row;
     padding: 11% 9%;
   }
+
   .my-self {
     width: 50%;
     max-width: 447px;
   }
+
   .skill-list {
     width: 60%;
   }
+
   .primary-text-about {
     font-size: 3.5vw;
     line-height: 3.7vw;
   }
+
   .pt2-about {
     font-size: 1.3vw;
     line-height: 2vw;
     max-width: 447px;
   }
+
   .social-media-about {
     font-size: 1.3vw;
     line-height: 2vw;
-
   }
+
   .skill-lang {
     padding-top: 0;
   }
+
   .language-list {
     flex-direction: row;
   }
@@ -530,8 +553,8 @@ margin-bottom: 1.3vw;
     flex-direction: column;
     width: 122px;
   }
-  .contact-background
-  {
+
+  .contact-background {
     gap: 12px;
     background-image: url(./images/contactdesktop.png);
     background-repeat: no-repeat;
@@ -540,17 +563,21 @@ margin-bottom: 1.3vw;
     border-top-left-radius: 150px;
     padding-bottom: 8.8%;
   }
+
   .contact-me {
     margin-top: 9.8%;
   }
+
   .contact-form {
     gap: 1.8vw;
     align-items: center;
     margin-top: 0;
   }
+
   .contact-message {
     margin-top: 0;
   }
+
   .form-items {
     border-radius: 2px;
     max-width: 447px;
@@ -560,4 +587,3 @@ margin-bottom: 1.3vw;
     height: 170px;
   }
 }
- 
