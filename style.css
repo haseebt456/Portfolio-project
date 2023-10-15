@@ -475,6 +475,7 @@ margin-bottom: 1.3vw;
 
   .c3 {
     border: 2px solid var(--primary-b-200, #a7aeff);
+    box-shadow: 0px 25px 50px 0px rgba(223, 225, 230, 1);
   }
   .c3-button {
     color: white;
